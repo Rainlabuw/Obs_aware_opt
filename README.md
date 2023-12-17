@@ -7,6 +7,8 @@ trajectory we design achieves this while getting to a relative position that imp
 
 The ego trajectory is shown in blue. The red line shows direction of sun-rays. The trajectory end point is where its relative position wrt Target(red dot) and sun-rays are parallel. The video shows trajectory generated as being simulated our platform. 
 
+The Target here is a uncooperative satellite with unknown rotation in Low-Earth orbit. The Ego satellite is parked in a relative elliptical orbit around the Target as a starting point.
+
 https://github.com/Rainlabuw/Observability_MPC/assets/33707695/723123dc-a502-4c43-987c-07bd7641554d
 
 
