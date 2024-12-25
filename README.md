@@ -11,4 +11,4 @@ The Target here is a uncooperative satellite with unknown rotation in Low-Earth 
 
 https://github.com/Rainlabuw/Observability_MPC/assets/33707695/723123dc-a502-4c43-987c-07bd7641554d
 
-
+We need the Ego spacecraft to be parked at a fixed distance from the Target while saving fuel. The estimation aware trajectory desined here find a trajectory such that relative pose estimation between Target and Ego is optimized as well. We oserve that the final state achieved is such that the sun is directly behind the Ego spacecraft givng the best veiwing conditions.
