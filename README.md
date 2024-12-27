@@ -12,3 +12,8 @@ The Target here is a uncooperative satellite with unknown rotation in Low-Earth 
 https://github.com/Rainlabuw/Observability_MPC/assets/33707695/723123dc-a502-4c43-987c-07bd7641554d
 
 
+# Dev
+- unreal.sh
+- Rainslm
+- matlab-mover-socket3.py
+- traj_HCW_rotated_dt.m
