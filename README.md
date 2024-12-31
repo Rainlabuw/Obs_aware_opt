@@ -1,6 +1,7 @@
 # Estimation aware Trajectory obtimization
 A Demo of trajectory optimization showing Ego camera view. Here the Ego spacecraft starts tracking the Target and has to reach within 10m of the Target. The 
 trajectory we design achieves this while getting to a relative position that imporves estimation. Note that we start at a position with bad sun angle and end up with best visibility under the given perception map.
+[Figure_1.pdf](https://github.com/user-attachments/files/18283950/Figure_1.pdf)
 
 
 ![MPC_trjf](https://github.com/Rainlabuw/Observability_MPC/assets/33707695/66324750-156f-41fb-9616-ea220bd9b787)
