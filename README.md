@@ -10,7 +10,11 @@ The ego trajectory is shown in blue. The red line shows direction of sun-rays. T
 The Target here is a uncooperative satellite with unknown rotation in Low-Earth orbit. The Ego satellite is parked in a relative elliptical orbit around the Target as a starting point.
 
 
-https://github.com/user-attachments/assets/8add4fe1-832a-43e6-a161-e226e89abac3
+<!--https://github.com/user-attachments/assets/8add4fe1-832a-43e6-a161-e226e89abac3-->
+
+
+https://github.com/user-attachments/assets/86be17af-314f-440d-815d-a8d90f6a13e8
+
 
 
 We need the Ego spacecraft to be parked at a fixed distance from the Target while saving fuel. The estimation aware trajectory desined here find a trajectory such that relative pose estimation between Target and Ego is optimized as well. We oserve that the final state achieved is such that the sun is directly behind the Ego spacecraft givng the best veiwing conditions.
