@@ -1,10 +1,11 @@
 # Estimation aware Trajectory optimization
+An implementation of Estimation-aware Trajectory planning algorithm where the output uncertianties are state dependent. We show that to improve estimation along a trajectory while performing some taks, alternative paths are needed. We present the framework in our paper [A. Deole, M Mesbahi](https://arxiv.org/abs/2501.09192). The estimation aware setup is applicable in general robotics applications if sensor performances have variability across state space. We present a scenario for Ego-Target Rendezvous problem where output uncertainty depends on the illumination. We present the following example:
+
 A Demo of trajectory optimization showing Ego camera view. Here the Ego spacecraft starts tracking the Target and has to reach within 10m of the Target. The 
 trajectory we design achieves this while getting to a relative position that imporves estimation. Note that we start at a position with bad sun angle and end up with best visibility under the given perception map.
 
-![Figure_1](https://github.com/user-attachments/assets/91185f81-630f-4d38-b046-5bd49e1ed613)
-
-
+<img src="https://github.com/user-attachments/assets/0fcdbcd3-5082-466f-9987-a8ec4bc3cecc" width="400" height="400">
+<img src="https://github.com/user-attachments/assets/f8daa485-a0e1-4cb3-a686-a0ce0b6c52bb" width="400" height="400">
 The ego trajectory is shown in blue. The red line shows direction of sun-rays. The trajectory end point is where its relative position wrt Target(red dot) and sun-rays are parallel. The video shows trajectory generated as being simulated our platform. 
 
 The Target here is a uncooperative satellite with unknown rotation in Low-Earth orbit. The Ego satellite is parked in a relative elliptical orbit around the Target as a starting point.
