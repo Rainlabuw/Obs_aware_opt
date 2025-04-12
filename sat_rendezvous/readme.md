@@ -1,0 +1,1 @@
+Python implementaion with Scvx for satellite rendezvous problem. The evveloping fuction is defined as $(x - x_s)^\top Q (x - x_s)$ where $x_s$ is the state corresponding to best estimation, ie the best illumination. The enveloping function has been determined by data. 
