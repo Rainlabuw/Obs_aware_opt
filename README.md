@@ -1,7 +1,11 @@
 # Observability_MPC
+An MPC implementation of estimation aware problem. [The paper was presented at scitech 2024](https://arc.aiaa.org/doi/abs/10.2514/6.2024-0947) 
+
+The implementation uses [MATMPC package](https://github.com/chenyutao36/MATMPC) where we define observability metric as a state dependent cost function.
+
+
 A Demo of trajectory optimization showing Ego camera view. Here the Ego spacecraft starts tracking the Target and has to reach within 10m of the Target. The 
 trajectory we design achieves this while getting to a relative position that imporves estimation. Note that we start at a position with bad sun angle and end up with best visibility under the given perception map.
-
 
 ![MPC_trjf](https://github.com/Rainlabuw/Observability_MPC/assets/33707695/66324750-156f-41fb-9616-ea220bd9b787)
 
@@ -12,8 +16,4 @@ The Target here is a uncooperative satellite with unknown rotation in Low-Earth 
 https://github.com/Rainlabuw/Observability_MPC/assets/33707695/723123dc-a502-4c43-987c-07bd7641554d
 
 
-# Dev
-- unreal.sh
-- Rainslm
-- matlab-mover-socket3.py
-- traj_HCW_rotated_dt.m
+
