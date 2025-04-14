@@ -23,3 +23,20 @@ We need the Ego spacecraft to be parked at a fixed distance from the Target whil
 
 
 The algorithm can be adapted for other robotics applications if there exists a convex enveloping function as defined [here](https://arxiv.org/abs/2501.09192). If the output map is more complex then a globally convex function, then only local convexity is required as SCVx algorithm can be used to limit exploration within a trust region. 
+
+The implementation of the test cases shown in paper:
+-  navigate to `dubincar` for trajectory deviation example
+-  navigate to `sat_rendezvous` for augmented observability example
+
+
+
+# Upcoming updates on Multiagent version
+The multiagent scenario can be interpreted as a dynamic sensor placement problem.
+
+Here we show that non-homogenity of sensors is a consensus criterion to improve network observability.
+<img src="https://github.com/user-attachments/assets/e5355d88-0ca3-42e7-9f91-6af0da30e757" width="700" height="260">
+
+
+https://github.com/user-attachments/assets/6705e2a2-85ed-4245-9f0d-e6c17e322604
+
+
