@@ -1,0 +1,239 @@
+[
+  {
+    "main": [
+      {
+        "case": "agnostic",
+        "D_O": 5974.305003841404,
+        "total_directional_radius": 87.84749807929742,
+        "mean_fused_volume": 3.655249118659996,
+        "final_fused_volume": 0.1226673912835892,
+        "final_min_los_angle_deg": 23.232754115248863,
+        "informative_fraction": 1.0,
+        "final_rmse": 0.05151493088813433,
+        "mean_rmse": 0.29307256463740705,
+        "final_setmembership_radius": 0.3381041068463334,
+        "setmembership_coverage": 1.0,
+        "outer_iterations": 30,
+        "converged": true,
+        "solve_time_s": 47.59231638908386,
+        "subproblems": 90,
+        "m": 3,
+        "delta_v_mps": 1.0705031508761647,
+        "final_range_m": [
+          15.000135792250575,
+          15.00004858227017,
+          15.000022376702896
+        ],
+        "final_phase_angle_deg": [
+          172.42413118101913,
+          163.85675988717188,
+          159.06169095734526
+        ],
+        "epsilon": 25.0,
+        "max_fused_radius": 3.5406734244529554
+      },
+      {
+        "case": "own-set",
+        "D_O": 5981.2867869470365,
+        "total_directional_radius": 84.35660652648123,
+        "mean_fused_volume": 3.5687617927810944,
+        "final_fused_volume": 0.12014133639309592,
+        "final_min_los_angle_deg": 25.257240636167236,
+        "informative_fraction": 1.0,
+        "final_rmse": 0.0475385979483053,
+        "mean_rmse": 0.28248299974543034,
+        "final_setmembership_radius": 0.30353233538212543,
+        "setmembership_coverage": 1.0,
+        "outer_iterations": 31,
+        "converged": true,
+        "solve_time_s": 62.15720081329346,
+        "subproblems": 93,
+        "m": 3,
+        "delta_v_mps": 1.3028001780443224,
+        "final_range_m": [
+          15.001759843347068,
+          15.000031850865794,
+          15.001134105362963
+        ],
+        "final_phase_angle_deg": [
+          170.45166418433485,
+          163.10533145721803,
+          157.68886560432324
+        ],
+        "epsilon": 25.0,
+        "max_fused_radius": 3.5406734244529554
+      },
+      {
+        "case": "network",
+        "D_O": 6020.102077029881,
+        "total_directional_radius": 64.94896148505983,
+        "mean_fused_volume": 3.354068400994727,
+        "final_fused_volume": 0.00452544399622943,
+        "final_min_los_angle_deg": 41.42155259987368,
+        "informative_fraction": 1.0,
+        "final_rmse": 0.017524210005770053,
+        "mean_rmse": 0.24470132920030907,
+        "final_setmembership_radius": 0.10675721752925256,
+        "setmembership_coverage": 1.0,
+        "outer_iterations": 46,
+        "converged": true,
+        "solve_time_s": 160.52591800689697,
+        "subproblems": 138,
+        "m": 3,
+        "delta_v_mps": 2.013981558628248,
+        "final_range_m": [
+          15.001110510490028,
+          15.00048568124599,
+          15.00158825297467
+        ],
+        "final_phase_angle_deg": [
+          23.965988795693768,
+          24.366300268706762,
+          26.288602681969408
+        ],
+        "epsilon": 25.0,
+        "max_fused_radius": 3.5406734244529554
+      }
+    ],
+    "ablation": [
+      {
+        "case": "network-m1",
+        "D_O": 5710.999688655158,
+        "total_directional_radius": 219.50015567242198,
+        "mean_fused_volume": 35.38439728387012,
+        "final_fused_volume": 0.7207382950972975,
+        "final_min_los_angle_deg": 0.0,
+        "informative_fraction": 0.0,
+        "final_rmse": 0.0954169669560906,
+        "mean_rmse": 0.8509607580598926,
+        "final_setmembership_radius": 0.4790938409236396,
+        "setmembership_coverage": 1.0,
+        "outer_iterations": 29,
+        "converged": true,
+        "solve_time_s": 19.23869276046753,
+        "subproblems": 29,
+        "m": 1,
+        "delta_v_mps": 1.275741763473019,
+        "final_range_m": [
+          15.000002268380054
+        ],
+        "final_phase_angle_deg": [
+          179.90250167508887
+        ],
+        "epsilon": 25.0,
+        "max_fused_radius": 12.166444618690361
+      },
+      {
+        "case": "network-m2",
+        "D_O": 5995.2317772280085,
+        "total_directional_radius": 77.38411138599604,
+        "mean_fused_volume": 5.613726917885917,
+        "final_fused_volume": 0.008346902941337324,
+        "final_min_los_angle_deg": 49.02668903879112,
+        "informative_fraction": 1.0,
+        "final_rmse": 0.022143414779035104,
+        "mean_rmse": 0.29221425516369676,
+        "final_setmembership_radius": 0.11844271419650801,
+        "setmembership_coverage": 1.0,
+        "outer_iterations": 44,
+        "converged": true,
+        "solve_time_s": 89.48145985603333,
+        "subproblems": 88,
+        "m": 2,
+        "delta_v_mps": 1.946865220233221,
+        "final_range_m": [
+          15.000494002791951,
+          15.000322430021098
+        ],
+        "final_phase_angle_deg": [
+          24.388007033981093,
+          24.641115519544996
+        ],
+        "epsilon": 25.0,
+        "max_fused_radius": 4.16834027094207
+      },
+      {
+        "case": "network-m3",
+        "D_O": 6020.102077029881,
+        "total_directional_radius": 64.94896148505983,
+        "mean_fused_volume": 3.354068400994727,
+        "final_fused_volume": 0.00452544399622943,
+        "final_min_los_angle_deg": 41.42155259987368,
+        "informative_fraction": 1.0,
+        "final_rmse": 0.017524210005770053,
+        "mean_rmse": 0.24470132920030907,
+        "final_setmembership_radius": 0.10675721752925256,
+        "setmembership_coverage": 1.0,
+        "outer_iterations": 46,
+        "converged": true,
+        "solve_time_s": 145.51897835731506,
+        "subproblems": 138,
+        "m": 3,
+        "delta_v_mps": 2.013981558628248,
+        "final_range_m": [
+          15.001110510490028,
+          15.00048568124599,
+          15.00158825297467
+        ],
+        "final_phase_angle_deg": [
+          23.965988795693768,
+          24.366300268706762,
+          26.288602681969408
+        ],
+        "epsilon": 25.0,
+        "max_fused_radius": 3.5406734244529554
+      },
+      {
+        "case": "network-m4",
+        "D_O": 6042.92323705258,
+        "total_directional_radius": 53.538381473709684,
+        "mean_fused_volume": 1.9376357360446654,
+        "final_fused_volume": 0.0029846767818327655,
+        "final_min_los_angle_deg": 23.413959257510186,
+        "informative_fraction": 1.0,
+        "final_rmse": 0.015202365762065143,
+        "mean_rmse": 0.2022551438422782,
+        "final_setmembership_radius": 0.09949143085604982,
+        "setmembership_coverage": 1.0,
+        "outer_iterations": 46,
+        "converged": true,
+        "solve_time_s": 228.45110321044922,
+        "subproblems": 184,
+        "m": 4,
+        "delta_v_mps": 1.940722609772644,
+        "final_range_m": [
+          15.004429140143188,
+          15.010111844422513,
+          15.007354295538512,
+          15.00239149352147
+        ],
+        "final_phase_angle_deg": [
+          5.3017855671256084,
+          26.694239829417675,
+          30.88797401837094,
+          28.382767555122605
+        ],
+        "epsilon": 25.0,
+        "max_fused_radius": 2.823554327547518
+      }
+    ],
+    "scenario": {
+      "dt": 7.5,
+      "horizon": 40,
+      "d_keepout": 15.0,
+      "d_collision": 6.0,
+      "u_max": 0.01,
+      "epsilon": 5.0,
+      "r_ref": 20.0,
+      "a_depth": 1.2,
+      "a_lateral": 0.15,
+      "w_illum": 0.1,
+      "sun_direction": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "epsilon_note": "D_O evaluated at a common probe size epsilon = 25.0 m, which exceeds every fused set radius encountered, so D_O is exactly affine and strictly decreasing in the total directional radius."
+  }
+]

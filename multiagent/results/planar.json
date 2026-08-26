@@ -1,0 +1,63 @@
+[
+  {
+    "cases": [
+      {
+        "case": "agnostic",
+        "D_O": 103.47976578014162,
+        "total_directional_radius": 30.260117109929197,
+        "mean_fused_volume": 0.3520711234211261,
+        "final_fused_volume": 0.27592683757605774,
+        "final_min_los_angle_deg": 17.35004734970992,
+        "informative_fraction": 1.0,
+        "final_rmse": 0.04014408622405961,
+        "mean_rmse": 0.10454078180777034,
+        "final_setmembership_radius": 0.263174832838089,
+        "setmembership_coverage": 1.0,
+        "outer_iterations": 29,
+        "converged": true,
+        "solve_time_s": 18.857290506362915,
+        "subproblems": 58
+      },
+      {
+        "case": "own-set",
+        "D_O": 103.35719621054318,
+        "total_directional_radius": 30.321401894728396,
+        "mean_fused_volume": 0.35302081598661544,
+        "final_fused_volume": 0.2684637984061176,
+        "final_min_los_angle_deg": 26.143954254609575,
+        "informative_fraction": 1.0,
+        "final_rmse": 0.04066647241980322,
+        "mean_rmse": 0.10337846730369121,
+        "final_setmembership_radius": 0.2601824752854071,
+        "setmembership_coverage": 1.0,
+        "outer_iterations": 30,
+        "converged": true,
+        "solve_time_s": 26.287132740020752,
+        "subproblems": 60
+      },
+      {
+        "case": "network",
+        "D_O": 111.76125923130371,
+        "total_directional_radius": 26.119370384348148,
+        "mean_fused_volume": 0.29315705490494715,
+        "final_fused_volume": 0.22619562315160244,
+        "final_min_los_angle_deg": 89.8461747989691,
+        "informative_fraction": 1.0,
+        "final_rmse": 0.03017103285636545,
+        "mean_rmse": 0.08940552949244028,
+        "final_setmembership_radius": 0.17100594767322724,
+        "setmembership_coverage": 1.0,
+        "outer_iterations": 33,
+        "converged": true,
+        "solve_time_s": 53.25535607337952,
+        "subproblems": 66
+      }
+    ],
+    "analytic_sweep": {
+      "argmin_deg": 90.0,
+      "predicted_gain": 1.25,
+      "observed_gain": 1.2500000000000007,
+      "anisotropy": 2.0
+    }
+  }
+]
